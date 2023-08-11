@@ -1,4 +1,3 @@
-DEMO GIT 
 
 	This is demo tryout of git for internship (07/08/2023)
 
