@@ -20,8 +20,8 @@
   <header>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="trialdump.html">TrialDump Home</a></li>
+        <li><a href="#">About Us</a></li>
         <li><a href="#">News</a></li>
         <li><a href="#">Events</a></li>
         <li><a href="#">Payments</a></li>
@@ -37,7 +37,7 @@
   <!-- multimedia section for video diplay-->
 
   <section>
-    <h3>LOCAL IMAGE LINKING</h3>
+    <h3>LOCAL VIDEO LINKING</h3>
     <video width="400" height="230" autoplay muted>
       <source src="./video/Test Videos.mp4" type="video/mp4" />
     </video>
@@ -54,17 +54,68 @@
 
   <!-- multimedia for youtube video section -->
   <section>
-    <h3>YOUTUBE IFRAME LINKING</h3>
+    <h3>YOUTUBE IFRAME -- Catvideo </h3>
     <!-- <iframe src="https://youtube.com" title="cat video"></iframe> -->
     <!-- <iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe> -->
     <iframe width="560" height="315" src="https://www.youtube.com/embed/DXUAyRRkI6k"
       title="Cat video on YouTube video player" frameborder="0" allowfullscreen></iframe>
   </section>
 
+  <!-- Linking in Html -->
+  <section>
+    <h4>HTML Links</h4>
+    <a href="https://www.google.com">A GOOGLE LINK</a>
+  </section>
+
+
+  <!-- Html tables -->
+  <h2>Html Tables</h2>
+  <table>
+    <thead>
+      <tr>
+        <!-- rowspan takes up an amount of row, used when classifying table rows -->
+        <th rowspan="2">S/N</th>
+        <!-- colspan  takes up an amount of column, used when classifying table columns  -->
+        <th colspan="3">Personal Info</th>
+        <th rowspan="2">Marital status</th>
+      </tr>
+      <tr>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>1.</th>
+        <td>John Mark</td>
+        <td>Man</td>
+        <td>19 yrs</td>
+        <td>Married</td>
+      </tr>
+      <tr>
+        <th>2.</th>
+        <td>Celena Jones</td>
+        <td>Woman</td>
+        <td>21 yrs</td>
+        <td>Unmarried</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>Total</th>
+        <td>Complete</td>
+        <td>Okay</td>
+        <td>Good</td>
+        <td>Average</td>
+      </tr>
+    </tfoot>
+  </table>
+
   <!-- multimedia for image display section -->
   <section>
     <h3>IMAGE DISPLAY SECTION</h3>
-    <img src="./images/html-icon.png" alt="An image of html logo">
+    <img src="./images/image of 3 pple.jpg" alt="An image of 3 people" width="400" height="250">
   </section>
   <!-- Header Categories -->
   <h1>Header 1</h1>
@@ -78,6 +129,7 @@
   <p>This is a paragraph</p>
   <p><b>This is a bold text</b></p>
   <!-- unordered lists -->
+  <h3>Html Lists</h3>
   <ul>
     <li>Boy</li>
     <li>Girl</li>
@@ -99,6 +151,8 @@
       <tr>Woman</tr>
     </th>
   </table>
+
+  <!-- html forms -->
   <h2>HTML FORM EXAMPLE</h2>
   <form action="#" method="post" enctype="">
     <label for="fname">First name:</label>
@@ -108,6 +162,17 @@
     <textarea name="textarea" id="textarea" cols="30" rows="10">Input text here</textarea><br><br>
     <!-- <input type="submit" value="Submit"> -->
     <button name="submit">Submit</button>
+  </form>
+  <!-- other examples of input tags -->
+  <form action="#">
+    <h3>other examples of input tags</h3>
+    <input type="password">
+    <input type="color">
+    <input type="number">
+    <input type="time">
+    <input type="range">
+    <input type="datetime-local">
+    <input type="month">
   </form>
 
 
