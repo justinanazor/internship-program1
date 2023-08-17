@@ -1,21 +1,21 @@
 /* External css  */
 
-h1 {
-  /* color: blue; */
-  /* color: blue !important; */
-  /* when the !important function is added the particular css overrides any other css  */
-}
+/* h1 { */
+/* color: blue; */
+/* color: blue !important; */
+/* when the !important function is added the particular css overrides any other css  */
+/* } */
 
 /* body {
   background-color: gray;
 } */
 
 /* Asteriks is also known as a universal selector... It applies by default to the body when not defined */
-* {
-  /* background-color: paleturquoise;
+/* * { */
+/* background-color: paleturquoise;
 
   color: blueviolet; This applies to all text in the file which are not yet defined using css */
-}
+/* } */
 
 /* Dots (.) is used to rep classes in css */
 
