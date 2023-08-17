@@ -1,0 +1,7 @@
+/* External css  */
+
+h1 {
+  color: blue;
+  /* color: blue !important; */
+  /* when the !important function is added the particular css overrides any other css  */
+}
