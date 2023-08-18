@@ -73,6 +73,7 @@ header {
   padding: 20px;
   margin: 20px;
   text-decoration: none;
+  /* text-align: center; */
 }
 
 .navbar ul li {
