@@ -8,4 +8,8 @@ UI/UX Design using Figma.
 
 Tutors: Mr. Christian Nwanagba, Engr. Stanley A. T.
 
---> Justin Anazor (A.k.a Mr. Anorah).
+--> I am Justin Anazor (A.k.a Mr. Anorah).
+
+.
+
+## About Me
