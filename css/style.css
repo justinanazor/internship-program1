@@ -29,5 +29,13 @@
 }
 
 .lolly {
-  background-image: url(/internship-program1/images/image\ of\ 3\ pple.jpg);
+  background-image: url(/internship-program1/images/rulerslimimage.jpg);
+}
+
+.border {
+  border-style: double;
+  border-color: blue;
+  border-width: thick;
+  height: 100%;
+  border-radius: 20px;
 }
