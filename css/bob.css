@@ -23,9 +23,41 @@
   overflow: scroll;
 } */
 
+body {
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  background-color: rgb(19, 134, 1);
+  width: 100%;
+}
+
+.navbar ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar ul li {
+  display: inline;
+  padding: 7px;
+}
+
+.navbar ul li:hover {
+  background-color: rgb(41, 41, 41);
+  padding: 7px;
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  /* padding: 30px; */
+  margin: 30px;
+  text-align: center;
+}
+
 .container {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 .item {
   background-color: lightgreen;
