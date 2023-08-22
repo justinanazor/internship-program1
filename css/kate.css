@@ -11,7 +11,7 @@ body {
 }
 
 .nav-area {
-  background-color: rgb(225, 0, 0);
+  background-color: rgb(225, 220, 220);
   height: 62px;
   width: 100%;
 }
@@ -19,4 +19,80 @@ body {
 .logo {
   line-height: 70px;
   padding: 0 40px;
+}
+
+.nav-area1 {
+  float: right;
+  margin-right: 20px;
+}
+
+.nav-area1 li {
+  display: inline-block;
+  line-height: 60px;
+  margin: 0 5px;
+}
+
+.nav-area1 li a {
+  color: green;
+  font-size: 14px;
+  text-transform: capitalize;
+  padding: 22px 15px;
+  font-weight: bold;
+}
+
+.nav-area1 li a:hover {
+  background-color: green;
+  color: white;
+  transition-duration: 0.8s;
+}
+
+.btn-area {
+  font-size: 30px;
+  color: green;
+  float: right;
+  line-height: 62px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#box {
+  display: none;
+}
+
+@media screen and (max-width: 860px) {
+  .btn-area {
+    display: block;
+  }
+  .nav-area1 {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+    color: white;
+    top: 62px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.8s;
+  }
+  .nav-area1 li {
+    display: block;
+    margin: 0;
+    padding: 25px 0;
+    line-height: 30px;
+  }
+  .nav-area1 li:hover {
+    background-color: green;
+    /* color: white; */
+  }
+  .nav-area1 li a {
+    font-size: 30px;
+    color: white;
+  }
+  .nav-area1 li a:hover {
+    background-color: none;
+  }
+  #box:checked ~ ul {
+    left: 0;
+  }
 }
