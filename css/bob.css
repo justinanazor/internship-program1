@@ -1,0 +1,47 @@
+/* .container {
+  width: 100%;
+  overflow: scroll;
+}
+.column {
+  box-sizing: border-box;
+  padding: 10px;
+  float: left;
+}
+
+.left {
+  width: 30%;
+  background-color: lightblue;
+}
+
+.right {
+  width: 70%;
+  background-color: aqua;
+}
+
+.lorem {
+  border: 12px red solid;
+  overflow: scroll;
+} */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  background-color: lightgreen;
+  margin: 10px;
+  padding: 12px;
+  width: 30%;
+}
+.item1 {
+  background-color: lightgreen;
+  margin: 10px;
+  padding: 12px;
+  width: 30%;
+}
+
+@media screen and (max-width: 400px) {
+  .item1 {
+    display: none;
+  }
+}
