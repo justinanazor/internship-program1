@@ -7,6 +7,7 @@
 function clicker() {
   // document.getElementById("btnp").innerHTML = "clicked";
   alert("wow it worked!");
+  document.getElementById("sbtn").innerHTML = "clicked";
 }
 
 function hv() {
