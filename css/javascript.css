@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.disp {
+  background-color: gray;
+}
+
+.disp div {
+  display: inline-block;
+  padding: 20px 40px;
+  margin: auto;
+}
+
+.disp div button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.lor1 {
+  display: none;
+  background-color: aqua;
+  height: 10vh;
+  text-align: center;
+}
+.lor2 {
+  display: none;
+  background-color: blueviolet;
+  height: 10vh;
+  text-align: center;
+}
+.lor3 {
+  display: none;
+  background-color: indianred;
+  height: 10vh;
+  text-align: center;
+}
