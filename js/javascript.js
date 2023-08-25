@@ -30,17 +30,25 @@
 
 function b1() {
   document.getElementById("lor11").style.display = "block";
-
+  document.getElementById("bta").style.backgroundColor = "black";
   document.getElementById("lor22").style.display = "none";
+  document.getElementById("btb").style.backgroundColor = "green";
   document.getElementById("lor33").style.display = "none";
+  document.getElementById("btc").style.backgroundColor = "green";
 }
 function b2() {
   document.getElementById("lor11").style.display = "none";
+  document.getElementById("bta").style.backgroundColor = "green";
   document.getElementById("lor22").style.display = "block";
+  document.getElementById("btb").style.backgroundColor = "black";
   document.getElementById("lor33").style.display = "none";
+  document.getElementById("btc").style.backgroundColor = "green";
 }
 function b3() {
   document.getElementById("lor11").style.display = "none";
+  document.getElementById("bta").style.backgroundColor = "green";
   document.getElementById("lor22").style.display = "none";
+  document.getElementById("btb").style.backgroundColor = "green";
   document.getElementById("lor33").style.display = "block";
+  document.getElementById("btc").style.backgroundColor = "black";
 }

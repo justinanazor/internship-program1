@@ -5,7 +5,7 @@
 }
 
 .disp {
-  background-color: gray;
+  background-color: white;
 }
 
 .disp div {
@@ -27,6 +27,15 @@
   background-color: aqua;
   height: 10vh;
   text-align: center;
+}
+.bt1:hover {
+  background-color: red;
+}
+.bt2:hover {
+  background-color: orange;
+}
+.bt3:hover {
+  background-color: pink;
 }
 .lor2 {
   display: none;
