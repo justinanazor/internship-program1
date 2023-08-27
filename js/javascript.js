@@ -29,6 +29,9 @@
 // });
 
 function b1() {
+  document.getElementById("bta").classList.add("bt1:hover");
+  document.getElementById("btb").classList.add("bt2:hover");
+  document.getElementById("btc").classList.add("bt3:hover");
   document.getElementById("lor11").style.display = "block";
   document.getElementById("bta").style.backgroundColor = "black";
   document.getElementById("lor22").style.display = "none";
